@@ -1,0 +1,3 @@
+[submodule "plugin-interface"]
+	path = plugin-interface
+	url = https://github.com/samcrow/plugin-interface.git
