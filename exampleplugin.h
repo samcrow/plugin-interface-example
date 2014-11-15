@@ -7,8 +7,8 @@ class ExamplePlugin : public Plugin
 public:
     ExamplePlugin();
 
+    virtual ~ExamplePlugin();
 
-    virtual void onStop() override;
     virtual void onDisable() override;
     virtual void onEnable() override;
 };

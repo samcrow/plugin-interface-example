@@ -7,7 +7,7 @@ ExamplePlugin::ExamplePlugin() :
 }
 
 
-void ExamplePlugin::onStop()
+ExamplePlugin::~ExamplePlugin()
 {
     debug("Example plugin stopping");
 }
